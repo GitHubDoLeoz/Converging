@@ -1,4 +1,3 @@
-
 body, html {
     color: #6f6f6f;
     font-size: 15px;
@@ -8,7 +7,6 @@ body, html {
 	height: 100% !important;
    scroll-behavior:smooth!important;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.3;
@@ -42,7 +40,6 @@ h5, .h5 {
 }
 }
 
-
 p {
     font-size: 15px;
     margin-bottom: 15px;
@@ -57,7 +54,6 @@ a, a:hover, a:focus {
 	color: #ff532e;
     outline: 0 solid transparent;
 } 
-
 
 ul, ol {
 	padding: 0;
@@ -78,7 +74,6 @@ ul, ol {
     url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
     url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
-
 
 .material-icons {
   font-family: 'Material Icons';
@@ -116,10 +111,7 @@ a, button {
     outline: medium none;
 }
 
-
 /*============topbar--section==============*/
-
-
 
 .info-bar {
        background-color: #fff;
@@ -157,7 +149,6 @@ a, button {
     color: #002e5b;
 }
 
-
 .bar{
     position:relative;
     width:25px;
@@ -165,14 +156,14 @@ a, button {
 	height:2px;
 	background-color:black;
     transition:0.4s;
-  }
-  
+}
+
   .navbar-toggler:focus{
    outline:none;
    box-shadow:none;
    border:0px;
   }
-  
+
 .navbar-scroll {
     position:fixed!important;
     top:0%!important;
@@ -239,7 +230,6 @@ a, button {
     padding: 10px 0px;
 }
 
-
 .logo a img {
     max-width: 146px;
     margin: 0px auto;
@@ -284,8 +274,6 @@ a, button {
     margin-right: 10px;
 }
 
-
-
 @media only screen and (min-width:992px){
    .small-display{display:none;}
    .padding-bg-screen{
@@ -323,8 +311,7 @@ a, button {
    .header-bottom{
      display:none;
    }
-  
-   
+
    .mobile-menu{
      position:fixed;
 	 top:0;
@@ -340,13 +327,10 @@ a, button {
      
 }
 
-
 .menu-active{
     transition: all 0.5s ease;
 	transform:translateX(0%);
 }
-
-
 
 .navbar-toggler span {
     display: block;
@@ -391,9 +375,6 @@ a, button {
     top: 20px;
 }
 
-
-
-
 .navbar-toggler.nav-active span:nth-child(1) {
     top: 12px;
     -webkit-transform: rotate(
@@ -414,16 +395,11 @@ a, button {
 -135deg);
 }
 
-
 .navbar button:focus{
   text-shadow:none;
   outline:none;
   border:none;
 }
-
-
-
-
 
 .small-menu{
     background: #333;
@@ -510,7 +486,6 @@ a, button {
     font-weight: 400;
 }
 
-
 #select-office {
     background-color: #329cd7;
     border-radius: 0px;
@@ -539,7 +514,6 @@ a, button {
  margin:0px 20px;
 }
 
-
 .navigation {
       background-color: #333;
     padding: 8px 0px;
@@ -556,7 +530,6 @@ a, button {
 	color: #fff;
 	padding:0px;
 }
-
 
 .navbar-nav .nav-item .nav-link{
     font-size: 16px;
@@ -575,8 +548,6 @@ a, button {
 .navbar-nav .nav-item .nav-link i{
     font-size:12px;	
 }
-
-
 
 .navbar-nav .nav-item.active .nav-link {
     color: #fff;
@@ -645,7 +616,6 @@ a, button {
 }	
 }
 
-
 .navbar-nav .nav-item.active:after{
 			background-color: #fff;
 			width: 75%!important;
@@ -657,8 +627,6 @@ a, button {
 .navbar-nav .nav-item:last-child:after{
  display:none;
 }
-
-
 
 .text-theme-colored {
     color: #FFAB00 !important;
@@ -676,9 +644,6 @@ a, button {
 .text-black-333 {
     color: #333333 !important;
 }
-
-
-
 
 /*--------
 .nav-item:after {
@@ -699,14 +664,11 @@ a, button {
 }
 --------------*/
 
-
 /*------------slider---section------------*/
 
 .pt-60{
   padding-top:120px;
 }
-
-
 
 /* ---------------------------------- */
 
@@ -746,8 +708,6 @@ a, button {
  position:relative;
 }
 
-
-
 .tparrows.preview1::after {
     font-size: 18px;
     width: 70px;
@@ -755,10 +715,6 @@ a, button {
     line-height: 70px;
     background: rgba(0,0,0,.6);
 }
-
-
-
-
 
 /*------about--seection----*/
 
@@ -769,14 +725,13 @@ a, button {
     padding-top: 100px;
 }
 
-
 .about-style-two .about-text {
-    padding-left: 45px;
+    padding-left: 40px;
 }
 
 .about-style-two .about-img {
-    padding-right: 20px;
-    margin-bottom: 20px;
+    padding-left: 25px;
+    margin-bottom: 25px;
 }
 
 .about-style-two .about-text .section-title {
@@ -822,8 +777,6 @@ a, button {
     font-family: arial;
     font-style: italic;
 }
-
-
 
 .num-process .icon span {
     height: 26px;
@@ -980,7 +933,6 @@ a, button {
     margin-right: 5px;
 }
 
-
 #scrollUp {
     /* background: #f6732e; */
     background: #000;
@@ -995,6 +947,23 @@ a, button {
     border-radius: 20px;
     line-height: 48px;
     transition: .3s;
+    animation: leBounceFromTop infinite 2s ease-in-out
+}
+
+@keyframes leBounceFromTop{
+    0%, 25%, 55%, 85%, 100% {
+        animation-timing-function: ease-out;
+        transform: translate3d(0, 0, 0);
+    }
+    41%, 44% {
+        animation-timing-function: ease-in;
+        transform: translate3d(0, -5px, 0) scale3d(1, 1.1, 1);
+    }
+    70% {
+        animation-timing-function: ease-in;
+        transform: translate3d(0, -2px, 0);
+    }
+    90% { transform: translate3d(0, 0px, 0)}
 }
 
 #scrollUp svg {
