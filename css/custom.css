@@ -775,7 +775,8 @@ a, button {
 }
 
 .about-style-two .about-img {
-    margin-bottom: 30px;
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
 
 .about-style-two .about-text .section-title {
@@ -790,7 +791,7 @@ a, button {
 
 .about-style-two .about-img img {
     border-radius: 55px;
-    padding: 15px;
+    padding: 0px;
 }
 
 .about-style-two .about-text .section-title h2 {
@@ -1280,6 +1281,7 @@ a, button {
 background-color: #f5f5f5;
  padding: 40px 25px 30px 25px;
  transition:all 1s ease;
+ position: sticky;
 }
 
 
