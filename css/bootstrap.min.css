@@ -580,9 +580,9 @@ pre code {
     margin-left: auto
 }
 
-@media (min-width:320px) {
+@media (min-width:376px) {
     .container {
-        max-width: 280px;
+        max-width: 360px;
     }
 }
 
