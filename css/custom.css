@@ -142,8 +142,6 @@ ol {
 header-top-section--------
 ==========================*/
 
-
-
 a,
 button {
     color: inherit;
@@ -1098,7 +1096,6 @@ button {
     left: -10px;
 }
 
-
 .project-section .project-btn p {
     margin-bottom: 0;
     line-height: 1;
@@ -1178,7 +1175,6 @@ button {
 .project-slider .slick-slide {
     margin: 0px 5px;
 }
-
 
 /*----facility------*/
 
@@ -1277,8 +1273,6 @@ button {
     color: #ffffff;
 }
 
-
-
 /*---service--section-----*/
 
 .service-style-three .service-card {
@@ -1345,7 +1339,6 @@ button {
     position: sticky;
 }
 
-
 .section-title {
     margin: auto;
     margin-bottom: 50px;
@@ -1369,7 +1362,6 @@ button {
     -webkit-transition: .5s;
     transition: .5s;
 }
-
 
 .service-style-three .service-card:hover .service-content img {
     filter: invert(1);
@@ -1424,9 +1416,7 @@ button {
     -webkit-transition: .5s;
     transition: .5s;
 }
-
-
-
+ 
 /*----page--style-----*/
 
 .sub-bnr {
@@ -1532,8 +1522,6 @@ hr.main {
 .pt-100 {
     padding-top: 100px;
 }
-
-
 
 .contact-section .contact-card {
     text-align: center;
