@@ -704,23 +704,6 @@ button {
     color: #333333 !important;
 }
 
-.nav-item:after {
-    content: '';
-    position: absolute;
-    z-index: 10;
-    width: 0;
-    left: 0;
-    right: 0;
-    bottom: 2px;
-    margin: auto;
-    height: 1px;
-    background: #fff;
-    -webkit-transition: ease all 0.2s;
-    -moz-transition: ease all 0.2s;
-    -o-transition: ease all 0.2s;
-    transition: ease all 0.2s;
-}
-
 /*------------slider---section------------*/
 
 .pt-60 {
@@ -1284,6 +1267,7 @@ button {
     transition: .5s;
     position: relative;
     margin-bottom: 30px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
 }
 
 .service-img {
@@ -1416,7 +1400,80 @@ button {
     -webkit-transition: .5s;
     transition: .5s;
 }
- 
+
+.project-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerproject-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    /* Ajuste o valor conforme necessário para espaçamento entre os cards */
+}
+
+.containerproject {
+    width: 275px;
+    height: 450px;
+    perspective: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    /* Espaçamento abaixo do título */
+}
+
+.containerproject:hover>.cardproject {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.cardproject {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    gap: 2rem;
+}
+
+.front {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.back {
+    transform: rotateY(180deg);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
 /*----page--style-----*/
 
 .sub-bnr {
