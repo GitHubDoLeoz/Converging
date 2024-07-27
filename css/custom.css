@@ -768,11 +768,13 @@ button {
 
 .about-style-two .about-text {
     padding-left: 40px;
+    margin-top: 30px;
 }
 
 .about-style-two .about-img {
     padding-left: 25px;
     margin-bottom: 25px;
+    margin-top: 30px;
 }
 
 .about-style-two .about-text .section-title {
@@ -1406,6 +1408,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: -30px;
 }
 
 .containerproject-wrapper {
@@ -1462,7 +1465,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #f5f5f5;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .front {
@@ -1472,6 +1475,19 @@ button {
 .back {
     transform: rotateY(180deg);
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 716px) {
+    .containerproject-wrapper {
+        gap: 70px;
+        /* Reduzir o valor para diminuir o espaçamento vertical */
+    }
+
+    .containerproject {
+        height: 450px;
+        /* Ajustar a altura se necessário */
+    }
 }
 
 /*----page--style-----*/
