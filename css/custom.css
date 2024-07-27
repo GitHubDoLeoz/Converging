@@ -7,6 +7,7 @@ html {
     width: 100% !important;
     height: 100% !important;
     scroll-behavior: smooth !important;
+    scroll-padding-top: 98px;
 }
 
 h1,
@@ -1403,12 +1404,21 @@ button {
     transition: .5s;
 }
 
+.project-section .icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .project-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: -30px;
+    margin-top: -120px;
 }
 
 .containerproject-wrapper {
@@ -1437,7 +1447,7 @@ button {
     /* Espaçamento abaixo do título */
 }
 
-.containerproject:hover>.cardproject {
+.cardproject:hover {
     cursor: pointer;
     transform: rotateY(180deg);
 }
@@ -1451,6 +1461,20 @@ button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.cardproject div .negrito {
+    color: rgb(33, 33, 33);
+    font-weight: 600;
+}
+
+.cardproject div .verde {
+    color: rgb(32, 158, 32);
+}
+
+.cardproject .contentcard p {
+    top: 25px;
+    position: relative;
 }
 
 .front,
