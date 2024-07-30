@@ -845,17 +845,11 @@ button {
 }
 
 .footer-area .footer-widget {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .footer-area .footer-widget .footer-logo {
     margin-bottom: 10px;
-}
-
-.footer-area .footer-widget .newsletter-area h3 {
-    font-size: 18px;
-    color: #ffea00;
-    margin-bottom: 20px;
 }
 
 .footer-area .footer-widget h3 {
@@ -870,35 +864,6 @@ button {
     font-size: 15px;
     margin-bottom: 15px;
     color: #ffffff;
-}
-
-.footer-area .footer-widget .newsletter-area .newsletter-form {
-    position: relative;
-}
-
-.footer-area .footer-widget .newsletter-area {
-    margin-bottom: 22px;
-}
-
-.footer-area .footer-widget .newsletter-area .newsletter-form input {
-    background: #ffffff;
-    border-radius: 0;
-    height: 40px;
-}
-
-.footer-area .footer-widget .newsletter-area .newsletter-form .subscribe-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: #ffea00;
-    color: #1f1c0c;
-    height: 100%;
-    -webkit-transition: .5s;
-    transition: .5s;
-    border: none;
-    padding: 0 10px;
-    font-size: 15px;
-    height: 40px;
 }
 
 .footer-area .footer-widget .footer-social a i {
@@ -1052,7 +1017,6 @@ button {
         transform: scale(1);
     }
 }
-
 
 /*--------service--section----*/
 
