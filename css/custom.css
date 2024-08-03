@@ -276,7 +276,7 @@ dialog {
 #DiaLM1 {
     position: fixed;
     top: 50%;
-    left: 32.5%;
+    left: 50%;
     transform: translate(-50%, -50%);
     border: none;
     border-radius: 20px;
@@ -287,18 +287,7 @@ dialog {
 #DiaLM2 {
     position: fixed;
     top: 50%;
-    left: 32.5%;
-    transform: translate(-50%, -50%);
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #f5f5f5;
-}
-
-#DiaLM3 {
-    position: fixed;
-    top: 50%;
-    left: 32.5%;
+    left: 50%;
     transform: translate(-50%, -50%);
     border: none;
     border-radius: 20px;
@@ -756,7 +745,16 @@ dialog::backdrop {
     .service-content {
         min-height: 310px;
     }
+    
+    #DiaLM1 {
+        left: 32.5%;
+    }
+
+    #DiaLM2 {
+        left: 32.5%;
+    }
 }
+
 
 .navbar-nav .nav-item.active:after {
     background-color: #fff;
