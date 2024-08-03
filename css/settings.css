@@ -11,7 +11,6 @@
 	display: none !important
 }
 
-
 .tp-caption {
 	z-index: 1;
 	white-space: nowrap
@@ -23,7 +22,6 @@
 	margin-bottom: 10px;
 	margin-right: 20px !important
 }
-
 
 .slide-big-heading {
 	font-size: 55px;
@@ -64,7 +62,6 @@
 	border-style: none;
 }
 
-
 .btn-slider {
 	display: block;
 	position: relative;
@@ -89,13 +86,10 @@
 	transition: all 0.6s ease;
 }
 
-
 .btn-slider a {
 	color: #fff !important;
 	cursor: pointer;
 }
-
-
 
 .tp-caption.whitedivider3px {
 
@@ -112,7 +106,6 @@
 	border-color: #000000;
 	border-style: none;
 }
-
 
 .tp-caption.finewide_large_white {
 	color: #ffffff;
@@ -271,8 +264,6 @@
 	border-style: none;
 }
 
-
-
 .tp-caption.huge_red {
 	position: absolute;
 	color: rgb(223, 75, 107);
@@ -342,7 +333,6 @@
 	white-space: nowrap;
 }
 
-
 .tp-caption.medium_grey {
 	position: absolute;
 	color: #fff;
@@ -386,7 +376,6 @@
 	border-style: none;
 	white-space: nowrap;
 }
-
 
 .tp-caption.large_bold_white_25 {
 	font-size: 55px;
@@ -1082,8 +1071,6 @@
 	border-style: none;
 }
 
-
-
 .tp-caption.boxshadow {
 	-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -1103,7 +1090,6 @@
 	text-shadow: none;
 }
 
-
 .tp_inner_padding {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -1111,9 +1097,7 @@
 	max-height: none !important;
 }
 
-
 /*.tp-caption			{	transform:none !important}*/
-
 
 /*********************************
 	-	SPECIAL TP CAPTIONS -
@@ -1162,7 +1146,6 @@
 	top: 0px;
 }
 
-
 /***********************************************
 	-	SPECIAL ALTERNATIVE IMAGE SETTINGS	-
 ***********************************************/
@@ -1203,18 +1186,13 @@ img.tp-slider-alternative-image {
 	background: url(../images/gradient/g40.png) repeat-x top
 }
 
-
 .tp-simpleresponsive .purchase:hover,
 .tp-simpleresponsive .button:hover,
 .tp-simpleresponsive .button.big:hover {
 	background-position: bottom, 15px 11px
 }
 
-
-
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
-
-
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.tp-simpleresponsive .button {
@@ -1230,8 +1208,6 @@ img.tp-slider-alternative-image {
 		-o-transition: none;
 		-ms-transition: none;
 	}
-
-
 }
 
 @media only screen and (min-width: 0px) and (max-width: 479px) {
@@ -1249,14 +1225,7 @@ img.tp-slider-alternative-image {
 	}
 }
 
-
-
-
-
 /*	BUTTON COLORS	*/
-
-
-
 .tp-simpleresponsive .button.green,
 .tp-simpleresponsive .button:hover.green,
 .tp-simpleresponsive .purchase.green,
@@ -1267,7 +1236,6 @@ img.tp-slider-alternative-image {
 	box-shadow: 0px 3px 0px 0px #104d0b;
 }
 
-
 .tp-simpleresponsive .button.blue,
 .tp-simpleresponsive .button:hover.blue,
 .tp-simpleresponsive .purchase.blue,
@@ -1277,7 +1245,6 @@ img.tp-slider-alternative-image {
 	-moz-box-shadow: 0px 3px 0px 0px #0f3e68;
 	box-shadow: 0px 3px 0px 0px #0f3e68
 }
-
 
 .tp-simpleresponsive .button.red,
 .tp-simpleresponsive .button:hover.red,
@@ -1321,8 +1288,6 @@ img.tp-slider-alternative-image {
 	box-shadow: 0px 3px 0px 0px #555
 }
 
-
-
 /****************************************************************
 
 	-	SET THE ANIMATION EVEN MORE SMOOTHER ON ANDROID   -
@@ -1349,8 +1314,6 @@ img.tp-slider-alternative-image {
 	padding: 0;
 }
 
-
-
 .fullwidthbanner-container {
 	width: 100%;
 	position: relative;
@@ -1363,8 +1326,6 @@ img.tp-slider-alternative-image {
 	position: relative;
 }
 
-
-
 /************************************************
 	  - SOME CAPTION MODIFICATION AT START  -
 *************************************************/
@@ -1376,12 +1337,9 @@ img.tp-slider-alternative-image {
 	-webkit-font-smoothing: antialiased !important;
 }
 
-
 .tp-simpleresponsive img {
 	max-width: none
 }
-
-
 
 /******************************
 	-	IE8 HACKS	-
@@ -1390,13 +1348,11 @@ img.tp-slider-alternative-image {
 	filter: none !important;
 }
 
-
 /******************************
 	-	SHADOWS		-
 ******************************/
 .tp-bannershadow {
 	position: absolute;
-
 	margin-left: auto;
 	margin-right: auto;
 	-moz-user-select: none;
@@ -1429,7 +1385,6 @@ img.tp-slider-alternative-image {
 	bottom: -60px
 }
 
-
 /********************************
 	-	FULLSCREEN VIDEO	-
 *********************************/
@@ -1456,14 +1411,12 @@ img.tp-slider-alternative-image {
 	height: 100%
 }
 
-
 .tp-caption.fullscreenvideo iframe,
 .tp-caption.fullscreenvideo iframe video {
 	width: 100% !important;
 	height: 100% !important;
 	display: none
 }
-
 
 .fullcoveredvideo video,
 .fullscreenvideo video {
@@ -1595,7 +1548,6 @@ img.tp-slider-alternative-image {
 	cursor: pointer;
 }
 
-
 .tp-video-button-wrap,
 .tp-video-seek-bar-wrap,
 .tp-video-vol-bar-wrap {
@@ -1620,7 +1572,6 @@ img.tp-slider-alternative-image {
 	margin: 0;
 	padding: 0;
 }
-
 
 /********************************
 	-	FULLSCREEN VIDEO ENDS	-
@@ -1660,7 +1611,6 @@ img.tp-slider-alternative-image {
 	-	DOTTED OVERLAYS ENDS	-
 *********************************/
 
-
 /************************
 	-	NAVIGATION	-
 *************************/
@@ -1670,7 +1620,6 @@ img.tp-slider-alternative-image {
 .tpclear {
 	clear: both
 }
-
 
 .tp-bullets {
 	z-index: 1000;
@@ -1693,7 +1642,6 @@ img.tp-slider-alternative-image {
 	opacity: 0;
 }
 
-
 .tp-bullets.simplebullets.navbar {
 	border: 1px solid #666;
 	border-bottom: 1px solid #444;
@@ -1713,7 +1661,6 @@ img.tp-slider-alternative-image {
 	-moz-border-radius: 5px;
 	border-radius: 5px
 }
-
 
 .tp-bullets.simplebullets.round .bullet {
 	cursor: pointer;
@@ -1746,7 +1693,6 @@ img.tp-slider-alternative-image {
 	margin-right: 0px
 }
 
-
 /**	SQUARE BULLETS **/
 .tp-bullets.simplebullets.square .bullet {
 	cursor: pointer;
@@ -1763,7 +1709,6 @@ img.tp-slider-alternative-image {
 	margin-right: 0px
 }
 
-
 /**	SQUARE BULLETS **/
 .tp-bullets.simplebullets.square-old .bullet {
 	cursor: pointer;
@@ -1779,7 +1724,6 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.square-old .bullet.last {
 	margin-right: 0px
 }
-
 
 /** navbar NAVIGATION VERSION **/
 .tp-bullets.simplebullets.navbar .bullet {
@@ -1800,8 +1744,6 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.navbar .bullet.last {
 	margin-right: 0px !important
 }
-
-
 
 /** navbar NAVIGATION VERSION **/
 .tp-bullets.simplebullets.navbar-old .bullet {
@@ -1824,7 +1766,6 @@ img.tp-slider-alternative-image {
 	margin-right: 0px !important
 }
 
-
 .tp-bullets.simplebullets .bullet:hover,
 .tp-bullets.simplebullets .bullet.selected {
 	background-position: top left
@@ -1836,8 +1777,6 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.navbar .bullet.selected {
 	background-position: bottom left
 }
-
-
 
 /*************************************
 	-	TP ARROWS 	-
@@ -1856,7 +1795,6 @@ img.tp-slider-alternative-image {
 	-webkit-backface-visibility: hidden;
 	z-index: 600;
 	position: relative;
-
 }
 
 .tparrows.hidearrows {
@@ -1884,12 +1822,11 @@ img.tp-slider-alternative-image {
 	height: 40px;
 }
 
-
 .tp-leftarrow.round {
 	z-index: 100;
 	cursor: pointer;
 	position: relative;
-	background: url(../assets/small_left.png) no-Repeat top left;
+	background-image: url(../assets/small_left.png) no-Repeat top left;
 	width: 19px;
 	height: 14px;
 	margin-right: 0px;
@@ -1901,7 +1838,7 @@ img.tp-slider-alternative-image {
 	z-index: 100;
 	cursor: pointer;
 	position: relative;
-	background: url(../assets/small_right.png) no-Repeat top left;
+	background-image: url(../assets/small_right.png) no-Repeat top left;
 	width: 19px;
 	height: 14px;
 	margin-right: 0px;
@@ -1909,12 +1846,11 @@ img.tp-slider-alternative-image {
 	margin-top: 0px
 }
 
-
 .tp-leftarrow.round-old {
 	z-index: 100;
 	cursor: pointer;
 	position: relative;
-	background: url(../assets/arrow_left.png) no-Repeat top left;
+	background-image: url(../assets/arrow_left.png) no-Repeat top left;
 	width: 26px;
 	height: 26px;
 	margin-right: 0px;
@@ -1933,7 +1869,6 @@ img.tp-slider-alternative-image {
 	float: left;
 	margin-top: 0px
 }
-
 
 .tp-leftarrow.navbar {
 	z-index: 100;
@@ -1958,7 +1893,6 @@ img.tp-slider-alternative-image {
 	margin-left: 6px;
 	margin-top: 12px
 }
-
 
 .tp-leftarrow.navbar-old {
 	z-index: 100;
@@ -2016,7 +1950,6 @@ img.tp-slider-alternative-image {
 	margin-top: 0px
 }
 
-
 .tp-leftarrow.square-old {
 	z-index: 100;
 	cursor: pointer;
@@ -2041,7 +1974,6 @@ img.tp-slider-alternative-image {
 	margin-top: 0px
 }
 
-
 .tp-leftarrow.default {
 	z-index: 100;
 	cursor: pointer;
@@ -2062,18 +1994,10 @@ img.tp-slider-alternative-image {
 
 }
 
-
-
-
 .tp-leftarrow:hover,
 .tp-rightarrow:hover {
 	background-position: bottom left
 }
-
-
-
-
-
 
 /****************************************************************************************************
 	-	TP THUMBS 	-
@@ -2084,7 +2008,6 @@ img.tp-slider-alternative-image {
  - .bullet width & height is the dimension of a simple Thumbnail (basic 100px x 50px)
 
  *****************************************************************************************************/
-
 
 .tp-bullets.tp-thumbs {
 	z-index: 1000;
@@ -2097,7 +2020,6 @@ img.tp-slider-alternative-image {
 	margin-top: -50px;
 }
 
-
 .fullwidthbanner-container .tp-thumbs {
 	padding: 3px
 }
@@ -2109,7 +2031,6 @@ img.tp-slider-alternative-image {
 	overflow: hidden;
 	position: relative
 }
-
 
 .tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer {
 	width: 5000px;
@@ -2126,17 +2047,14 @@ img.tp-slider-alternative-image {
 	margin: 0;
 	float: left;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	/*filter: alpha(opacity=50);	*/
 	-moz-opacity: 0.5;
 	-khtml-opacity: 0.5;
 	opacity: 0.5;
-
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 	-ms-transition: all 0.2s ease-out;
 }
-
 
 .tp-bullets.tp-thumbs .bullet:hover,
 .tp-bullets.tp-thumbs .bullet.selected {
@@ -2150,7 +2068,6 @@ img.tp-slider-alternative-image {
 .tp-thumbs img {
 	width: 100%
 }
-
 
 /************************************
 		-	TP BANNER TIMER		-
@@ -2170,16 +2087,9 @@ img.tp-slider-alternative-image {
 	top: auto
 }
 
-
-
-
 /***************************************
 	-	RESPONSIVE SETTINGS 	-
 ****************************************/
-
-
-
-
 @media only screen and (min-width: 0px) and (max-width: 479px) {
 	.responsive .tp-bullets {
 		display: none
@@ -2189,10 +2099,6 @@ img.tp-slider-alternative-image {
 		display: none
 	}
 }
-
-
-
-
 
 /*********************************************
 
@@ -2206,8 +2112,6 @@ img.tp-slider-alternative-image {
 	-webkit-user-select: none;
 	-o-user-select: none;
 }
-
-
 
 .tp-simpleresponsive a {
 	text-decoration: none
@@ -2224,7 +2128,6 @@ img.tp-slider-alternative-image {
 	overflow-y: visible;
 	background-image: none
 }
-
 
 .tp-simpleresponsive>ul>li {
 	list-style: none;
@@ -2244,8 +2147,6 @@ img.tp-slider-alternative-image {
 	background: url(../assets/coloredbg.png) repeat
 }
 
-
-
 /*****************************************
 	-	NAVIGATION FANCY EXAMPLES	-
 *****************************************/
@@ -2257,8 +2158,6 @@ img.tp-slider-alternative-image {
 .tparrows .tp-arr-titleholder {
 	display: none
 }
-
-
 
 /*****************************************
 	-	NAVIGATION FANCY EXAMPLES	-
@@ -2273,7 +2172,6 @@ img.tp-slider-alternative-image {
 	-moz-perspective: 1000;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
-	background: transparent
 }
 
 .tparrows.preview1:after {
@@ -2296,12 +2194,10 @@ img.tp-slider-alternative-image {
 }
 
 .tp-rightarrow.preview1:after {
-	content: '\f054';
 	font-weight: 700 !important;
 }
 
 .tp-leftarrow.preview1:after {
-	content: '\f053';
 	font-weight: 700 !important;
 }
 
@@ -2342,7 +2238,6 @@ img.tp-slider-alternative-image {
 	opacity: 1
 }
 
-
 .tp-rightarrow.preview1 .tp-arr-imgholder {
 	right: 100%;
 	-webkit-transform: rotateY(-90deg);
@@ -2354,9 +2249,6 @@ img.tp-slider-alternative-image {
 	-moz-opacity: 0.0;
 	-khtml-opacity: 0.0;
 	opacity: 0.0;
-
-
-
 }
 
 .tp-leftarrow.preview1 .tp-arr-imgholder {
@@ -2370,11 +2262,7 @@ img.tp-slider-alternative-image {
 	-moz-opacity: 0.0;
 	-khtml-opacity: 0.0;
 	opacity: 0.0;
-
-
-
 }
-
 
 .tparrows.preview1:hover .tp-arr-imgholder {
 	-webkit-transform: rotateY(0deg);
@@ -2387,7 +2275,6 @@ img.tp-slider-alternative-image {
 
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
 	.tparrows.preview1,
@@ -2397,7 +2284,6 @@ img.tp-slider-alternative-image {
 		line-height: 80px;
 		font-size: 24px
 	}
-
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -2409,10 +2295,7 @@ img.tp-slider-alternative-image {
 		line-height: 60px;
 		font-size: 20px
 	}
-
 }
-
-
 
 @media only screen and (min-width: 0px) and (max-width: 479px) {
 
@@ -2426,7 +2309,6 @@ img.tp-slider-alternative-image {
 }
 
 /* PREVIEW 1 BULLETS */
-
 .tp-bullets.preview1 {
 	height: 21px
 }
@@ -2472,16 +2354,11 @@ img.tp-slider-alternative-image {
 	border: 8px solid rgba(255, 255, 255, 1) !important;
 }
 
-
-
-
 /* NAVIGATION PREVIEW 2 */
 .tparrows.preview2 {
 	min-width: 60px;
 	min-height: 60px;
 	background: #fff;
-	;
-
 	border-radius: 30px;
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
@@ -2514,7 +2391,6 @@ img.tp-slider-alternative-image {
 	content: '\e81f';
 	left: 18px
 }
-
 
 .tparrows.preview2 .tp-arr-titleholder {
 	background-size: cover;
@@ -2568,7 +2444,6 @@ img.tp-slider-alternative-image {
 }
 
 /* PREVIEW 2 BULLETS */
-
 .tp-bullets.preview2 {
 	height: 17px
 }
@@ -2618,7 +2493,6 @@ img.tp-slider-alternative-image {
 	display: none !important
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 	.tparrows.preview2 {
 		min-width: 40px;
@@ -2661,7 +2535,6 @@ img.tp-slider-alternative-image {
 	.tp-leftarrow.preview2 .tp-arr-titleholder {
 		left: 35px
 	}
-
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -2755,8 +2628,6 @@ img.tp-slider-alternative-image {
 	}
 }
 
-
-
 /* NAVIGATION PREVIEW 3 */
 .tparrows.preview3 {
 	width: 70px;
@@ -2796,7 +2667,6 @@ img.tp-slider-alternative-image {
 .tp-leftarrow.preview3:after {
 	content: '\e824';
 }
-
 
 .tparrows.preview3 .tp-arr-iwrapper {
 	-webkit-transform: scale(0, 1);
@@ -2906,7 +2776,6 @@ img.tp-slider-alternative-image {
 	border: 5px solid rgba(0, 0, 0, 1) !important;
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
 	.tparrows.preview3:after,
@@ -2938,9 +2807,6 @@ img.tp-slider-alternative-image {
 		padding: 10px;
 		font-size: 16px
 	}
-
-
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -2957,10 +2823,6 @@ img.tp-slider-alternative-image {
 		min-height: 70px
 	}
 }
-
-
-
-
 
 /* NAVIGATION PREVIEW 4 */
 .tparrows.preview4 {
@@ -3006,7 +2868,6 @@ img.tp-slider-alternative-image {
 	content: '\e824';
 }
 
-
 .tparrows.preview4 .tp-arr-allwrapper {
 	visibility: hidden;
 	width: 180px;
@@ -3039,9 +2900,6 @@ img.tp-slider-alternative-image {
 
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-
-
-
 }
 
 
@@ -3062,9 +2920,6 @@ img.tp-slider-alternative-image {
 .tp-leftarrow.preview4 .tp-arr-imgholder2 {
 	left: -180px
 }
-
-
-
 
 .tparrows.preview4 .tp-arr-titleholder {
 	display: block;
@@ -3095,11 +2950,7 @@ img.tp-slider-alternative-image {
 	-moz-opacity: 0.0;
 	-khtml-opacity: 0.0;
 	opacity: 0.0;
-
-
 }
-
-
 
 .tparrows.preview4:after {
 	transform-origin: 100% 100%;
@@ -3110,9 +2961,6 @@ img.tp-slider-alternative-image {
 	transform-origin: 0% 0%;
 	-webkit-transform-origin: 0% 0%
 }
-
-
-
 
 @media only screen and (min-width: 768px) {
 	.tparrows.preview4:hover:after {
@@ -3125,7 +2973,6 @@ img.tp-slider-alternative-image {
 		transform: rotateY(90deg)
 	}
 
-
 	.tparrows.preview4:hover .tp-arr-titleholder {
 		-webkit-transition-delay: 0.4s;
 		transition-delay: 0.4s;
@@ -3136,12 +2983,10 @@ img.tp-slider-alternative-image {
 		-moz-opacity: 1;
 		-khtml-opacity: 1;
 		opacity: 1;
-
 	}
 }
 
 /* PREVIEW 4 BULLETS */
-
 .tp-bullets.preview4 {
 	height: 17px
 }
@@ -3187,7 +3032,6 @@ img.tp-slider-alternative-image {
 	border: 5px solid rgba(0, 0, 0, 1) !important;
 }
 
-
 @media only screen and (max-width: 767px) {
 	.tparrows.preview4 {
 		width: 20px;
@@ -3209,19 +3053,14 @@ img.tp-slider-alternative-image {
 	}
 }
 
-
-
 /******************************
 	-	LOADER FORMS	-
 ********************************/
-
 .tp-loader {
 	top: 50%;
 	left: 50%;
 	z-index: 10000;
 	position: absolute;
-
-
 }
 
 .tp-loader.spinner0 {
@@ -3240,7 +3079,6 @@ img.tp-slider-alternative-image {
 	-webkit-border-radius: 3px;
 }
 
-
 .tp-loader.spinner1 {
 	width: 40px;
 	height: 40px;
@@ -3256,8 +3094,6 @@ img.tp-slider-alternative-image {
 	-webkit-border-radius: 3px;
 }
 
-
-
 .tp-loader.spinner5 {
 	background: url(../assets/loader.gif) no-repeat 10px 10px;
 	background-color: #fff;
@@ -3268,7 +3104,6 @@ img.tp-slider-alternative-image {
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 }
-
 
 @-webkit-keyframes tp-rotateplane {
 	0% {
@@ -3300,7 +3135,6 @@ img.tp-slider-alternative-image {
 		-webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	}
 }
-
 
 .tp-loader.spinner2 {
 	width: 40px;
@@ -3339,14 +3173,10 @@ img.tp-slider-alternative-image {
 	}
 }
 
-
-
-
 .tp-loader.spinner3 {
 	margin: -9px 0px 0px -35px;
 	width: 70px;
 	text-align: center;
-
 }
 
 .tp-loader.spinner3 .bounce1,
@@ -3361,7 +3191,6 @@ img.tp-slider-alternative-image {
 	display: inline-block;
 	-webkit-animation: tp-bouncedelay 1.4s infinite ease-in-out;
 	animation: tp-bouncedelay 1.4s infinite ease-in-out;
-	/* Prevent first frame from flickering when animation starts */
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
@@ -3403,9 +3232,6 @@ img.tp-slider-alternative-image {
 		-webkit-transform: scale(1.0);
 	}
 }
-
-
-
 
 .tp-loader.spinner4 {
 	margin: -20px 0px 0px -20px;
@@ -3477,8 +3303,6 @@ img.tp-slider-alternative-image {
 	}
 }
 
-
-
 .tp-transparentimg {
 	content: "url(../assets/transparent.png)"
 }
@@ -3488,15 +3312,12 @@ img.tp-slider-alternative-image {
 	-webkit-transform-origin: 50% 50%;
 }
 
-
-
 .tp-caption img {
 	background: transparent;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);
 	zoom: 1;
 }
-
 
 @font-face {
 	font-family: 'revicons';
@@ -3508,17 +3329,6 @@ img.tp-slider-alternative-image {
 	font-weight: normal;
 	font-style: normal;
 }
-
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'revicons';
-    src: url('../font/revicons.svg?5510888#revicons') format('svg');
-  }
-}
-*/
 
 [class^="revicon-"]:before,
 [class*=" revicon-"]:before {

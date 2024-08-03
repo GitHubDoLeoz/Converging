@@ -169,9 +169,7 @@
           <div class="tp-bannertimer hide"></div>
         </div>
       </div>
-      <!-- home end -->
     </section>
-    <!-- revolution slider end -->
   </div>
 
   <section class="about-style-two py-5">
@@ -217,7 +215,7 @@
             <div class="service-img structure">
             </div>
             <div class="service-content">
-              <img src="img/s5.svg" />
+              <img class="inverter" src="img/s5.svg" />
               <h3>Cálculo Otimizado de Viabilidade Estrutural</h3>
               <p>Realizamos cálculos precisos para determinar a viabilidade de projetos estruturais otimizados.</p>
               <div>
@@ -243,7 +241,7 @@
             <div class="service-img urban">
             </div>
             <div class="service-content">
-              <img src="img/s8.png" />
+              <img class="inverter" src="img/s8.png" />
               <h3>Simulação e Análise Estrutural Detalhada</h3>
               <p>Realizamos simulações detalhadas das estruturas para identificar possíveis otimizações e melhorias.</p>
               <div>
@@ -268,33 +266,14 @@
             <div class="service-img water">
             </div>
             <div class="service-content">
-              <img src="img/s9.png" />
+              <img class="inverter" src="img/s9.png" />
               <h3>Consultoria em Otimização Estrutural</h3>
               <p>Oferecemos consultorias em otimização estrutural para garantir desempenho e melhor custo da estrutura.
               </p>
-              <div>
-                <dialog id="DiaLM3">
-                  <button id="close-dialog" style="float: right;">&times;</button>
-
-                </dialog>
-              </div>
-              <a href="#" class="service-btn" id="LM3">Ler mais</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div>
-      <dialog id="DiaLM2">
-        <button id="close-dialog" style="float: right;">&times;</button>
-
-      </dialog>
-    </div>
-    <div>
-      <dialog id="DiaLM3">
-        <button id="close-dialog" style="float: right;">&times;</button>
-
-      </dialog>
     </div>
   </section>
 
@@ -496,8 +475,6 @@
               const dialogoLM1 = document.getElementById('DiaLM1');
               const LM2 = document.getElementById('LM2');
               const dialogoLM2 = document.getElementById('DiaLM2');
-              const LM3 = document.getElementById('LM3');
-              const dialogoLM3 = document.getElementById('DiaLM2');
 
               // Função para mostrar um diálogo
               function mostrarDialogo(dialogo) {
@@ -528,11 +505,6 @@
                 mostrarDialogo(dialogoLM2);
               });
 
-              LM3.addEventListener('click', function (event) {
-                event.preventDefault();
-                mostrarDialogo(dialogoLM3);
-              });
-
               // Adiciona eventos de clique aos botões de fechar para fechar os diálogos
               document.querySelectorAll('#close-dialog').forEach(button => {
                 button.addEventListener('click', function () {
@@ -541,12 +513,6 @@
               });
 
             </script>
-
-            <div class="footer-social">
-              <a href="https://linkedin.com/company/converge-optimize" target="_blank" class="social-linkedin">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -568,6 +534,11 @@
               <li>
                 <i class="bx bxs-location-plus"></i>
                 ‎ Sorocaba, São Paulo, Brasil
+              </li>
+              <li class="footer-social">
+                <a href="https://linkedin.com/company/converge-optimize" target="_blank" class="social-linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
               </li>
             </ul>
           </div>
