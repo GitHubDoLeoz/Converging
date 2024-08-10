@@ -145,13 +145,14 @@ header-top-section--------
 
 .cookies-msg {
     width: 80%;
-    background-color: #fff;
+    background-color: #f5f5f5;
     position: fixed;
     bottom: 5%;
     left: 50%;
     transform: translate(-50%);
     border-radius: 15px;
     display: none;
+    z-index: 1000;
 }
 
 .cookies-msg.mostrar {
@@ -162,6 +163,7 @@ header-top-section--------
     display: flex;
     align-items: center;
     text-align: justify;
+    color: #000;
     padding: 20px;
 }
 
@@ -171,7 +173,7 @@ header-top-section--------
 
 .cookies-msg .cookies-btn button {
     background-color: #000;
-    color: #fff;
+    color: #f5f5f5;
     font-weight: 700;
     font-size: 18px;
     padding: 10px 40px;
