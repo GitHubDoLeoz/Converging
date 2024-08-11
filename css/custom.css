@@ -185,7 +185,7 @@ header-top-section--------
     transform: scale(0.9);
 }
 
-@media screen and (max-width: 367px) {
+@media screen and (min-width: 320px) {
     .cookies-msg {
         width: 90%;
         bottom: 10%;
