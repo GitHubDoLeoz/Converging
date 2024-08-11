@@ -185,6 +185,35 @@ header-top-section--------
     transform: scale(0.9);
 }
 
+@media screen and (max-width: 367px) {
+    .cookies-msg {
+        width: 90%;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 8px;
+    }
+
+    .cookies-msg .cookies-txt {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .cookies-msg .cookies-btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .cookies-msg .cookies-btn button {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+}
+
 a,
 button {
     color: inherit;
@@ -984,7 +1013,7 @@ dialog::backdrop {
     color: #ffffff;
     position: relative;
     padding-left: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
 }
 
 .footer-area .footer-widget p {
@@ -1005,6 +1034,12 @@ dialog::backdrop {
     margin-right: 5px;
     -webkit-transition: .5s;
     transition: .5s;
+}
+
+.footer-area .footer-widget ul {
+    list-style: none;
+    margin-bottom: 40px;
+    color: #ffffff;
 }
 
 .footer-area .footer-widget ul li a {
