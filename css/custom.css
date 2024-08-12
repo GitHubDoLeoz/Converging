@@ -753,7 +753,8 @@ dialog::backdrop {
 
 .appoint-btn {
     background: #fff;
-    color: #000;
+    color: #c41616bf;
+    font-weight: bold;
     font-size: 14px;
     border-radius: 15px;
     padding: 10px 10px;
