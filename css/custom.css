@@ -485,7 +485,7 @@ dialog::backdrop {
     }
 
     .nav-item .nav-link {
-        /* background-color: #333; */
+        background-color: #333;
         color: #eaeaea !important;
         border-bottom: 1px solid #474747;
         padding: 4px 3px !important;
@@ -716,6 +716,9 @@ dialog::backdrop {
 
 .navbar-nav .nav-item {
     position: relative;
+    padding-top: 5px;
+    padding-bottom: -10px;
+    display: inline;
 }
 
 .navbar-brand {
@@ -748,12 +751,13 @@ dialog::backdrop {
     font-weight: 500;
 }
 
-.appoint-btn a {
+.appoint-btn {
     background: #fff;
     color: #000;
     font-size: 14px;
-    padding: 10px 15px;
-    border-radius: 30px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    display: block;
 }
 
 .header-social-icon {
